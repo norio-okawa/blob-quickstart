@@ -79,6 +79,16 @@ async function main() {
             );
         }
 
+        // ----------------
+        // 4. Delete container
+        // console.log('\nDeleting container...');
+
+        // const deleteContainerResponse = await containerClient.delete();
+        // console.log(
+        //     'Container was deleted successfully. requestId: ',
+        //     deleteContainerResponse.requestId
+        // );
+
     } catch (err) {
         console.log(`Error: ${err.message}`);
     }
